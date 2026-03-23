@@ -182,3 +182,61 @@ body {
     bottom: 30px;
     font-size: 60px;
 }
+
+
+
+.pricing h1 {
+  margin: 40px 0;
+  font-size: 32px;
+}
+
+
+.pricing .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pricing .card {
+  background: white;
+  padding: 30px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pricing .card.active {
+  background: #f3d37a;
+}
+
+.pricing .card h2 {
+  margin-bottom: 10px;
+}
+
+.pricing .price {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing ul li {
+  margin: 8px 0;
+}
+
+.pricing button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pricing button:hover {
+  background: #333;
+}
